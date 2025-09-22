@@ -1,0 +1,258 @@
+@font-face{
+  font-family: 'font1';
+  src: url('../fonts/Audiowide-Regular.ttf');
+  font-weight: normal;
+}
+@font-face{
+  font-family: 'font2';
+  src: url('../fonts/RubikDirt-Regular.ttf');
+  font-weight: normal;
+}
+body{
+  font-family: system-ui;
+}
+a{
+  text-decoration: none;
+}
+.main-content{
+  padding-top: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Introduction .Heading{
+  display: block;
+  border-radius: 5px;
+  padding: 5px;
+  line-height: 1.428;
+  text-align: justify;
+  border: dashed darkslategrey;
+}
+.Heading h1{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #000000;
+  font-family: font1;
+  font-weight: 100;
+  text-align: center;
+}
+.Heading b{
+}
+.Heading p{
+  line-height: 1.428;
+  overflow: none;
+  font-size: 16px;
+  color: #222;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+.Cources{
+  margin-bottom: 10px;
+  overflow: hidden;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: dashed darkslategrey;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-wrap: wrap;
+}
+.course-title{
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 16px;
+  color: #000000;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top: dashed darkslategrey;
+  border-right: dashed darkslategray;
+  border-left: dashed darkslategrey;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.cards .one {
+  background: linear-gradient(to top right, #7509BE, #D049FF);
+}
+.cards .two {
+  background: linear-gradient(to top right, rgba(204, 19, 135, 1), rgba(237, 100, 210, 1));
+}
+.cards .three {
+  background: linear-gradient(to top right, rgba(4, 166, 92, 1), rgba(105, 230, 157, 1));
+}
+.cards .four{
+  background: linear-gradient(to top right, rgba(17, 73, 255, 1), rgba(123, 133, 255, 1));
+}
+.cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100px;
+  width: 250px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: 400ms;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.cards .card p.tip {
+  font-size: 1em;
+  font-weight: 1000;
+  user-select: none;
+}
+
+.cards .card p.second-text {
+  font-size: .7em;
+}
+
+.cards .card:hover {
+  transform: scale(1.1, 1.1);
+}
+/*
+.cards:hover>.card:not(:hover) {
+  filter: blur(5px);
+  transform: scale(0.9, 0.9);
+}
+*/
+
+/* From Uiverse.io by Yaya12085 */ 
+.AppDownload {
+  max-width: 350px;
+  background-color: rgb(7 16 45);
+  background: linear-gradient(to top right, rgb(7 16 45), rgb(58 60 84));
+  background: -webkit-linear-gradient(to top right, rgb(7 16 45), rgb(58 60 84));
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(84 90 106);
+}
+
+.small-text, .title,.desc {
+  font-weight: 600;
+}
+
+.title,.desc {
+  margin: 8px 0;
+}
+
+.small-text {
+  color: #488aec;
+  font-size: 14px;
+}
+
+.AppDownload .title {
+  color: #fff;
+  font-size: 26px;
+  line-height: 26px;
+}
+
+.AppDownload .desc {
+  color: rgb(151 153 167);
+  font-size: 13px;
+}
+
+.AppDownload .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.AppDownload .button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 6px;
+  text-decoration: none;
+}
+
+.AppDownload .button:first-child {
+  box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
+  background-color: #488aec;
+}
+
+.AppDownload .button:last-child {
+  box-shadow: 0 4px 6px -1px #0b162531, 0 2px 4px -1px #0e192b17;
+  background-color: #fff;
+}
+
+.AppDownload .icon {
+  height: 25px;
+  width: 25px;
+}
+
+.AppDownload .icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.AppDownload .icon svg:last-child {
+  fill: #000
+}
+
+.AppDownload .button-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.AppDownload .button-text span:first-child {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.AppDownload .google span:first-child {
+  color: rgb(219 206 253);
+}
+
+.AppDownload .apple span:first-child {
+  color: rgb(81 87 108);
+}
+
+.AppDownload .google span:last-child {
+  color: #fff;
+  font-weight: 800;
+}
+
+.AppDownload .apple span:last-child {
+  color: #000;
+  font-weight: 800;
+}
+/*Making website suitable for different screen size*/
+.main {
+  float: left;
+  width: 60%;
+  overflow: hidden;
+}
+.right {
+  float: right;
+  width: 40%;
+}
+
+@media only screen and (min-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 70%;
+  }
+  .right {
+    width: 30%;
+    margin-top: 70px;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .main, .right {
+    width: 100%;
+  }
+}
