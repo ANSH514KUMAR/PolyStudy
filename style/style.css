@@ -1,13 +1,11 @@
-@font-face{
-  font-family: 'font1';
-  src: url('../fonts/Audiowide-Regular.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Rubik+Dirt&display=swap');
+
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
   font-weight: normal;
+  font-style: normal;
 }
-@font-face{
-  font-family: 'font2';
-  src: url('../fonts/RubikDirt-Regular.ttf');
-  font-weight: normal;
-}
+
 body{
   font-family: system-ui;
 }
@@ -32,7 +30,7 @@ a{
   margin-bottom: 5px;
   font-size: 16px;
   color: #000000;
-  font-family: font1;
+  font-family: Audiowide;
   font-weight: 100;
   text-align: center;
 }
