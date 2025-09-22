@@ -2,11 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
-@font-face{
-  font-family: 'font1';
-  src: url('../fonts/Audiowide-Regular.ttf');
-  font-weight: normal;
-}
+
 .NavBar{
     display: block;
     position: fixed;
@@ -23,7 +19,7 @@
     font-size: 22px;
     margin-left: 15px;
     margin-top: 14px;
-    font-family: font1;
+    font-family: Audiowide;
     user-select: none;
     float: left;
 }
