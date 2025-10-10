@@ -238,6 +238,39 @@ a{
   width: 40%;
 }
 
+.important-links{
+  margin: 5px;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  border: dashed;
+}
+.important-links p{
+  font-weight: 700;
+  font-size: 20px;
+  color: dodgerblue;
+  
+}
+.important-links ul{
+  margin-left: 10px;
+  margin-right: 10px;
+  list-style-type: "\21AA";
+  font-weight: 500;
+  font-size: 16px;
+  font-weight: normal;
+  overflow: none;
+  overflow-wrap: break-word;
+}
+.important-links li::marker {
+  color: orangered;
+  font-size: 24px;
+}
+.important-links a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
 @media only screen and (min-width:800px) {
   /* For tablets: */
   .main {
