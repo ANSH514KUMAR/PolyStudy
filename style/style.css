@@ -264,7 +264,7 @@ a{
 }
 .important-links li::marker {
   color: orangered;
-  font-size: 24px;
+  font-size: 20px;
 }
 .important-links a{
   text-decoration: none;
