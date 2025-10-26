@@ -168,26 +168,31 @@ a{
 
 .small-text, .title,.desc {
   font-weight: 600;
+  user-select: none;
 }
 
 .title,.desc {
   margin: 8px 0;
+  user-select: none;
 }
 
 .small-text {
   color: #488aec;
   font-size: 14px;
+  user-select: none;
 }
 
 .AppDownload .title {
   color: #fff;
   font-size: 26px;
   line-height: 26px;
+  user-select: none;
 }
 
 .AppDownload .desc {
   color: rgb(151 153 167);
   font-size: 13px;
+  user-select: none;
 }
 
 .AppDownload .buttons {
@@ -340,7 +345,7 @@ a{
 }
 .about .card p{
   font-size: 16px;
-  color: #555555;
+  color: #313131;
   font-weight: 400;
   font-family: fantasy;
 }
