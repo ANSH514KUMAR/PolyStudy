@@ -108,13 +108,13 @@
     width: 100%;
   }
 }
-@media all and (max-width: 992px) {
+@media all and (min-width: 800px) {
   .footer-5-column .footer-navbar .footer-navbar-col {
     width: 50%;
   }
 }
-@media all and (max-width: 576px) {
+@media all and (max-width: 500px) {
   .footer-5-column .footer-navbar .footer-navbar-col {
-    /* width: 100%; */
+    /*width: 100%;*/
   }
 }
