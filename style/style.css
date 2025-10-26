@@ -58,7 +58,8 @@ a{
 .course-title{
   margin-top: 10px;
   padding: 5px;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 700;
   color: #000000;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -72,6 +73,15 @@ a{
   margin-top: 20px;
   margin-bottom: 20px;
   gap: 10px;
+}
+.cards .zero1{
+  background-image: linear-gradient(to right, #F36781 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+}
+.cards .zero2{
+ background-image: linear-gradient( 69.2deg,  rgba(77,143,251,1) 35.3%, rgba(202,51,255,1) 100.3% );
+}
+.cards .zero3{
+  background-image: linear-gradient( 75.1deg,  rgba(19, 186, 19, 1) 6%, rgba(64, 153, 43, 1) 84.3% );
 }
 .cards .one {
   background: linear-gradient(to top right, #7509BE, #D049FF);
@@ -119,9 +129,32 @@ a{
   transform: scale(0.9, 0.9);
 }
 */
+.common-subjects{
+  margin-bottom: 10px;
+  overflow: hidden;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: dashed darkslategrey;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-wrap: wrap;
+}
+.title2{
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top: dashed darkslategrey;
+  border-right: dashed darkslategray;
+  border-left: dashed darkslategrey;
+}
 
-/* From Uiverse.io by Yaya12085 */ 
 .AppDownload {
+  margin: 20px;
   max-width: 350px;
   background-color: rgb(7 16 45);
   background: linear-gradient(to top right, rgb(7 16 45), rgb(58 60 84));
@@ -129,8 +162,7 @@ a{
   display: flex;
   flex-direction: column;
   padding: 20px;
-  margin: 10px;
-  border-radius: 20px;
+  border-radius: 15px;
   border: 1px solid rgb(84 90 106);
 }
 
@@ -162,7 +194,7 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 25px;
   margin-top: 10px;
 }
 
@@ -170,7 +202,7 @@ a{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 6px;
   text-decoration: none;
 }
@@ -227,19 +259,9 @@ a{
   color: #000;
   font-weight: 800;
 }
-/*Making website suitable for different screen size*/
-.main {
-  float: left;
-  width: 60%;
-  overflow: hidden;
-}
-.right {
-  float: right;
-  width: 40%;
-}
 
 .important-links{
-  margin: 5px;
+  margin: 20px;
   padding-top: 30px;
   padding-left: 20px;
   padding-bottom: 20px;
@@ -271,6 +293,82 @@ a{
   color: black;
   cursor: pointer;
 }
+
+.BookStore{
+  display: block;
+  position: fixed;
+  z-index: 80;
+  top: 65%;
+  height: 60px;
+  width: 60px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #000000;
+  
+}
+.BookStore svg{
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  fill: #FF1170;
+}
+.about{
+  margin: 10px;
+  margin-top: 30px;
+  user-select: none;
+}
+.about p{
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.about .card{
+  margin: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  padding: 14px 100px 18px 20px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.about .card h3{
+  font-size: 20px;
+  font-weight: 700;
+  color: darkorange;
+}
+.about .card p{
+  font-size: 16px;
+  color: #555555;
+  font-weight: 400;
+  font-family: fantasy;
+}
+
+.about .card img{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  max-height: 120px;
+}
+.about .card-1{
+  background-image: url("/account-avatar-profile-user-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 90px;
+}
+
+/*Making website suitable for different screen size*/
+.main {
+  float: left;
+  width: 60%;
+  overflow: hidden;
+}
+.right {
+  float: right;
+  width: 40%;
+}
+
 @media only screen and (min-width:800px) {
   /* For tablets: */
   .main {
@@ -278,7 +376,13 @@ a{
   }
   .right {
     width: 30%;
-    margin-top: 70px;
+    margin-top: 60px;
+  }
+  .about .card{
+    margin: auto;
+  }
+  .AppDownload .buttons{
+    gap: 10px;
   }
 }
 @media only screen and (max-width:500px) {
