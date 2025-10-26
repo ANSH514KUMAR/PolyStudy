@@ -3,7 +3,7 @@
   margin-top: 10px;
 }
 .footer-5-column p {
-  color: #777777;
+  color: #313131;
 }
 .footer-5-column .footer-container {
   max-width: 1320px;
@@ -44,47 +44,6 @@
   padding-right: 1rem;
   text-align: justify;
 }
-.footer-5-column
-  .footer-container
-  .footer-navbar-container
-  .footer-company-details
-  .footer-icons {
-  margin-top: 10px;
-}
-.footer-5-column
-  .footer-container
-  .footer-navbar-container
-  .footer-company-details
-  .footer-icons
-  ul {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-.footer-5-column
-  .footer-container
-  .footer-navbar-container
-  .footer-company-details
-  .footer-icons
-  ul
-  li {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  margin-right: 14px;
-}
-.footer-5-column
-  .footer-container
-  .footer-navbar-container
-  .footer-company-details
-  .footer-icons
-  ul
-  li
-  a {
-  width: 30px;
-  padding: 6px;
-}
 .footer-5-column .footer-navbar {
   display: flex;
   flex-wrap: wrap;
@@ -119,7 +78,7 @@
 .footer-5-column .footer-navbar .footer-navbar-col ul li a {
   font-size: 16px;
   text-decoration: none;
-  color: #777777;
+  color: #313131;
   overflow-wrap: break-word;
 }
 .footer-5-column .footer-navbar .footer-navbar-col ul li a:hover {
