@@ -13,12 +13,13 @@
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
+  margin-bottom: 30px;
 }
 .footer-5-column .footer-container .footer-navbar-container {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
 }
