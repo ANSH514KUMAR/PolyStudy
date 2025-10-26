@@ -1,8 +1,7 @@
     const installButton = document.getElementById('addToHomeScreenButton');
     if (installButton) {
       installButton.addEventListener('click', () => {
-        // Hide your custom UI
-        installButton.style.display = 'none';
+   
         
         // Show the browser's A2HS prompt
         deferredPrompt.prompt();
