@@ -352,7 +352,7 @@ a{
   max-height: 120px;
 }
 .about .card-1{
-  background-image: url("/account-avatar-profile-user-svgrepo-com.svg");
+  background-image: url("../imgs/avatar.svg");
     background-repeat: no-repeat;
     background-position: right;
     background-size: 90px;
