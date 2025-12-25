@@ -1,3 +1,4 @@
+
 .footer-5-column {
   padding-top: 10px;
   margin-top: 10px;
@@ -40,7 +41,6 @@
   margin-top: 10px;
   font-size: 16px;
   line-height: 1.8;
-  margin-bottom: 20px;
   padding-right: 1rem;
   text-align: justify;
 }
@@ -86,7 +86,7 @@
 }
 
 .footer-5-column .footer-copyright {
-  padding: 2rem 0;
+  padding: 1.5rem 0;
   border-top: 1px solid rgb(219, 215, 215);
 }
 .footer-5-column .footer-copyright p {
