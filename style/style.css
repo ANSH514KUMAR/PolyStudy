@@ -14,8 +14,6 @@ a{
 }
 .main-content{
   padding-top: 80px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 .Introduction .Heading{
   display: block;
@@ -23,7 +21,11 @@ a{
   padding: 5px;
   line-height: 1.428;
   text-align: justify;
-  border: dashed darkslategrey;
+  border: 2px dashed darkslategrey;
+}
+.Introduction{
+  margin-bottom: 20px;
+  margin-inline: 15px;
 }
 .Heading h1{
   margin-top: 10px;
@@ -34,8 +36,6 @@ a{
   font-weight: 100;
   text-align: center;
 }
-.Heading b{
-}
 .Heading p{
   line-height: 1.428;
   overflow: none;
@@ -45,27 +45,23 @@ a{
   white-space: normal;
 }
 .Cources{
+  margin-inline: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
   overflow: hidden;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border: dashed darkslategrey;
   display: flex;
   justify-content: center;
   align-items: center; 
   flex-wrap: wrap;
+  border-radius: 5px;
+  border: 2px dashed darkslategrey;
 }
 .course-title{
   margin-top: 10px;
-  padding: 5px;
+  margin-left: 5px;
   font-size: 18px;
   font-weight: 700;
   color: #000000;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-top: dashed darkslategrey;
-  border-right: dashed darkslategray;
-  border-left: dashed darkslategrey;
 }
 .cards {
   display: flex;
@@ -75,7 +71,7 @@ a{
   gap: 10px;
 }
 .cards .zero1{
-  background-image: linear-gradient(to right, #F36781 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+  background-image: linear-gradient(to right, #F4617C 0%, #f9748f 19%, #EB8186 60%, #F27866 100%);
 }
 .cards .zero2{
  background-image: linear-gradient( 69.2deg,  rgba(77,143,251,1) 35.3%, rgba(202,51,255,1) 100.3% );
@@ -130,27 +126,23 @@ a{
 }
 */
 .common-subjects{
+  margin-inline: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
   overflow: hidden;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border: dashed darkslategrey;
   display: flex;
   justify-content: center;
   align-items: center; 
   flex-wrap: wrap;
+  border-radius: 5px;
+  border: 2px dashed darkslategrey;
 }
 .title2{
   margin-top: 10px;
-  padding: 5px;
+ margin-left: 5px;
   font-size: 18px;
   font-weight: 700;
   color: #000000;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-top: dashed darkslategrey;
-  border-right: dashed darkslategray;
-  border-left: dashed darkslategrey;
 }
 
 .AppDownload {
@@ -265,13 +257,12 @@ a{
   font-weight: 800;
 }
 
-.important-links{
-  margin: 20px;
-  padding-top: 30px;
+.important-links .link-list{
   padding-left: 20px;
-  padding-bottom: 20px;
+  margin-top: 10px;
+  border: 2px dashed black;
   border-radius: 5px;
-  border: dashed;
+  margin-inline: 20px;
 }
 .important-links p{
   font-weight: 700;
@@ -311,25 +302,17 @@ a{
   background: #000000;
   
 }
-.BookStore svg{
-  padding: 5px;
-  width: 50px;
-  height: 50px;
-  fill: #FF1170;
-}
 .about{
-  margin: 10px;
   margin-top: 30px;
   user-select: none;
 }
-.about p{
-  margin-left: 5px;
+.about h2{
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 .about .card{
-  margin: 10px;
+  margin: 20px;
   margin-top: 10px;
   border-radius: 10px;
   background: #fff;
@@ -363,6 +346,14 @@ a{
     background-size: 90px;
 }
 
+.desc{
+  margin: 20px;
+  font-weight: normal;
+  color: #555;
+  text-align: justify;
+  
+}
+
 /*Making website suitable for different screen size*/
 .main {
   float: left;
@@ -381,7 +372,7 @@ a{
   }
   .right {
     width: 30%;
-    margin-top: 60px;
+    margin-top: 70px;
   }
   .about .card{
     margin: auto;
@@ -395,4 +386,16 @@ a{
   .main, .right {
     width: 100%;
   }
+}
+#subTitle{
+  border-left: 3px solid lawngreen;
+  line-height: 50px;
+  padding-left: 15px;
+  margin-inline: 10px;
+  font-size: large;
+  box-shadow: rgba(0, 251, 13, 0.24) 2px 1px 2px 1px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  overflow: hidden;
+  background: #FFFFFF;
 }
