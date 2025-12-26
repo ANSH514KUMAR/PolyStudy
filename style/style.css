@@ -356,23 +356,19 @@ a{
 
 /*Making website suitable for different screen size*/
 .main {
-  float: left;
-  width: 60%;
   overflow: hidden;
-}
-.right {
-  float: right;
-  width: 40%;
 }
 
 @media only screen and (min-width:900px) {
   /* For tablets: */
   .main {
-    width: 70%;
+    float: left;
+    width: 60%;
   }
   .right {
-    width: 30%;
     margin-top: 70px;
+    float: right;
+    width: 40%;
   }
   .about .card{
     margin: auto;
@@ -381,7 +377,7 @@ a{
     gap: 10px;
   }
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
   /* For mobile phones: */
   .main, .right {
     width: 100%;
