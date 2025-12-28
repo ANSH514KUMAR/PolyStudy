@@ -5,17 +5,40 @@
       "Subject":"Engineering Physics ",
       "title":"Units and Measurement",
       "desc": "Units and Measurements describe physical quantities by comparing them to standardized references (units) for consistent, quantifiable understanding, with key concepts being units (like meter, kilogram, second) that define magnitude, measurement as the comparison process, and the standardized International System of Units (SI) for global communication, encompassing fundamental units (meter, kg, s) and derived units (m/s, m²), all crucial for accuracy and scientific reproducibility.",
-      "PreviewLink": "https://drive.google.com/file/d/1Xhuv_Qn3rj6l3-JJ69l59Uelg4dLg0ew/preview",
-      "downloadLink": "https://drive.google.com/file/d/1Xhuv_Qn3rj6l3-JJ69l59Uelg4dLg0ew"
+      "PreviewLink": "https://drive.google.com/file/d/1jW7VtDRovJChqRdmUvWri0Kugxi7WSMH/preview",
+      "downloadLink": "https://drive.google.com/file/d/1jW7VtDRovJChqRdmUvWri0Kugxi7WSMH"
     },
-
     {
-     "Chapter":"",
-     "Subject":"",
-     "title":"",
-     "desc":"",
-     "PreviewLink":"",
-     "downloadLink":""
-    }
+     "Chapter":"2",
+     "Subject":"Engineering Physics",
+     "title":"Elasticity",
+     "desc":"Elasticity is a material's ability to deform under force but return to its original shape and size once the force is removed, like a rubber band or spring; it's a key concept in physics and materials science, contrasting with plasticity (permanent change) and describing how matter responds to stress at the atomic level, though it applies to other fields like economics (responsiveness to price/incentives) and computing (resource scaling) too.",
+     "PreviewLink":"https://drive.google.com/file/d/1EutTa4uupB0nlvH66sf6Z8IF05VbKL5e/preview",
+     "downloadLink":"https://drive.google.com/file/d/1EutTa4uupB0nlvH66sf6Z8IF05VbKL5e/view?usp=drivesdk"
+    },
+    {
+     "Chapter":"3",
+     "Subject":"Engineering Physics",
+     "title":"Surface Tension",
+     "desc":"Surface tension is a liquid's tendency to shrink to the smallest possible surface area, acting like a stretched elastic skin due to the cohesive forces between its molecules, which pull inward, allowing objects denser than water (like insects) to rest on the surface. This inward pull occurs because surface molecules are attracted more to each other (and the bulk liquid) than to the air above, creating a net force that minimizes surface area and makes the surface resist external force.  ",
+     "PreviewLink":"https://drive.google.com/file/d/1pEi2bU-Jt0UQ3kidgn2d2seRNeMSR8te/preview",
+     "downloadLink":"https://drive.google.com/file/d/1pEi2bU-Jt0UQ3kidgn2d2seRNeMSR8te"
+    },
+    {
+  "Chapter": "4",
+  "Subject": "Engineering Physics",
+  "title": "Viscosity",
+  "desc": "Viscosity is a fluid's internal resistance to flow, essentially its thickness, determined by friction between its layers as they move past each other; high viscosity means slow flow (like honey), while low viscosity means fast flow (like water). It's a measure of internal friction, with stronger molecular forces leading to higher viscosity and greater resistance to deformation or motion.",
+  "PreviewLink": "https://drive.google.com/file/d/12p6sg4Ak5XUpQ0cIWlZFWi7OKssnV0lz/preview",
+  "downloadLink": "https://drive.google.com/file/d/12p6sg4Ak5XUpQ0cIWlZFWi7OKssnV0lz"
+  },
+  {
+  "Chapter": "5",
+  "Subject": "Engineering Physics",
+  "title": "Heat",
+  "desc": "In physics, heat is the transfer of thermal energy between systems or objects due to a temperature difference, flowing from hotter to cooler regions, not a substance itself but a process of energy flow, measured in Joules or calories, and transferred via conduction, convection, or radiation. It's fundamentally different from temperature, which measures the average kinetic energy of particles in an object, though both relate to thermal energy. ",
+  "PreviewLink": "https://drive.google.com/file/d/1sgpFMjUiRY5xL9VMHwyWdJSPEVTqp44O/preview",
+  "downloadLink": "https://drive.google.com/file/d/1sgpFMjUiRY5xL9VMHwyWdJSPEVTqp44O"
+  }
   ]
 }
